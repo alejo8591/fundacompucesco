@@ -1,4 +1,9 @@
 <?php
+/**
+ * @package WordPress
+ * @subpackage fundacompucesco-theme
+ * @since fundacompucesco 1.0
+ */
 
 	if (!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
 		die ('Please do not load this page directly. Thanks!');

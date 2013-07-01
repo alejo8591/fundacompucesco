@@ -1,8 +1,8 @@
 <?php
 /**
  * @package WordPress
- * @subpackage HTML5-Reset-WordPress-Theme
- * @since HTML5 Reset 2.0
+ * @subpackage fundacompucesco-theme
+ * @since fundacompucesco 1.0
  */
 ?>
 		<footer id="footer" class="source-org vcard copyright">
