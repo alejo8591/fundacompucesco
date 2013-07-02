@@ -111,6 +111,9 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+<div class='row'>
+	<div clas='twelve columns'>
 	
 	<div id="wrapper">
 	<!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
@@ -121,6 +124,8 @@
 		</header>
 		
 		<nav id="nav" role="navigation">
-			<?php wp_nav_menu( array('menu' => 'primary') ); ?>
+			<?php shurikend_nav_bar(); ?>
 		</nav>
+	</div>
+</div>
 

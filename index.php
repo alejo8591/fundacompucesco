@@ -5,8 +5,10 @@
  * @since fundacompucesco 1.0
  */
  get_header(); ?>
+ <div class='row'>
+ 	<div class='ten columns'>
 
- 	<?php if ( function_exists('show_nivo_slider') ) { show_nivo_slider(); } ?>
+ 	 <?php if ( function_exists('show_nivo_slider') ) { show_nivo_slider(); } ?>
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -38,6 +40,10 @@
 
 	<?php endif; ?>
 
-<?php get_sidebar(); ?>
+</div>
+<div class='two columns'>
+		<?php get_sidebar(); ?>
+	</div>
+</div>
 
 <?php get_footer(); ?>
