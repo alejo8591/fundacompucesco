@@ -154,8 +154,7 @@
 	register_nav_menus( array(
 		'main-menu' => 'Main Menu' // registers the menu in the WordPress admin menu editor
 	) );
-	 
-	 
+	  
 	/* 
 	http://codex.wordpress.org/Function_Reference/wp_nav_menu 
 	*/
@@ -175,8 +174,6 @@
 		'walker' => new nav_walker()       // this calls the walker for Foundation classes and descriptions
 		));
 	}
-	 
-	 
 	/*
 	http://codex.wordpress.org/Template_Tags/wp_list_pages
 	*/
