@@ -22,14 +22,14 @@
 
 			</div>
 
-			<?php edit_post_link(__('Edit this entry.'), '<p>', '</p>'); ?>
+			<?php // edit_post_link(__('Edit this entry.'), '<p>', '</p>'); ?>
 
 		</article>
 		
-		<!-- <?php comments_template(); ?> -->
+		<?php // comments_template(); ?>
 
 		<?php endwhile; endif; ?>
 
-<!-- <?php get_sidebar(); ?> -->
+ <?php // get_sidebar(); ?>
 
 <?php get_footer(); ?>

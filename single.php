@@ -24,15 +24,15 @@
 
 			</div>
 			
-			<?php edit_post_link(__('Edit this entry'),'','.'); ?>
+			<?php // edit_post_link(__('Edit this entry'),'','.'); ?>
 			
 		</article>
 
-	<!-- <?php comments_template(); ?>-->
+	 <?php // comments_template(); ?>
 
 	<?php endwhile; endif; ?>
 
-<?php post_navigation(); ?>
+<?php // post_navigation(); ?>
 	
 <?php get_sidebar(); ?>
 
