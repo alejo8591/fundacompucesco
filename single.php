@@ -10,7 +10,7 @@
 
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			
-			<h1 class="entry-title"><?php the_title(); ?></h1>
+			<h4 class="entry-title"><?php the_title(); ?></h4>
 
 			<div class="entry-content">
 				
@@ -28,7 +28,7 @@
 			
 		</article>
 
-	<?php comments_template(); ?>
+	<!-- <?php comments_template(); ?>-->
 
 	<?php endwhile; endif; ?>
 
